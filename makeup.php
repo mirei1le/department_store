@@ -14,8 +14,6 @@
     <input type="text" name="q" placeholder="Search products, brands..." required>
     <button type="submit">🔍</button>
 </form>
-    <span class="price" style="color:black">
-          <i class="fa fa-shopping-cart"></i>
 
     <ul>
         <!-- MENU ITEMS START HERE !-->

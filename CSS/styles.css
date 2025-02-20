@@ -1,19 +1,9 @@
-/* Center the h1 */
 h1 {
-    text-align: center; /* Center text horizontally */
-    font-size: 36px; /* Make it look bold and prominent */
+    text-align: center;
+    font-size: 36px;
     font-weight: bold;
-    margin-top: 20px; /* Add spacing */
-}
-
-/* If you want it to be centered vertically as well */
-body {
-    display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    height: 100vh; /* Full height of the viewport */
-    flex-direction: column; /* Stack elements vertically */
-    margin: 0;
+    width: 100%; /* Ensures full width */
+    margin: 20px 0; /* Adjust top & bottom margin */
 }
 
 ul {
@@ -78,3 +68,99 @@ li a:hover {
         width: 400px;
     }
 }
+/* Product Card */
+.product-card {
+    width: 320px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    position: relative;
+}
+
+/* Product Image */
+.product-image {
+    position: relative;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.product-image img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+/* Wishlist Icon */
+.wishlist-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 22px;
+    color: black;
+    cursor: pointer;
+}
+
+/* Product Details */
+.product-details {
+    text-align: left;
+    padding: 10px 0;
+}
+
+/* Brand Name */
+.product-brand {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+/* Product Title */
+.product-title {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+/* Star Rating */
+.rating {
+    color: #ffcc00;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.rating .fa-star,
+.rating .fa-star-half-alt {
+    margin-right: 3px;
+}
+
+.reviews {
+    font-size: 14px;
+    color: #777;
+}
+
+/* Price */
+.product-price {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Add to Bag Button */
+.add-to-bag {
+    width: 100%;
+    padding: 10px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.add-to-bag:hover {
+    background: #444;
+}
+

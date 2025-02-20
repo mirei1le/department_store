@@ -14,9 +14,8 @@
     <input type="text" name="q" placeholder="Search products, brands..." required>
     <button type="submit">🔍</button>
 </form>
-    <span class="price" style="color:black">
+<span class="price" style="color:black">
           <i class="fa fa-shopping-cart"></i>
-
     <ul>
         <!-- MENU ITEMS START HERE !-->
         
@@ -38,9 +37,29 @@
 
     
 
-    <?php
-    echo "SHOPAHOLICS";
-    ?>
+   <div class="product-card">
+        <div class="product-image">
+            <img src="IMG/iPadproblack.jpg" alt="Baxiosofa">
+            <i class="fa-regular fa-heart wishlist-icon"></i>
+        </div>
+        <div class="product-details">
+            <p class="product-brand">BLACK</p>
+            <h3 class="product-title">iPad</h3>
+            
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-alt"></i>
+                
+            </div>
+
+            <p class="product-price">€128.75</p>
+            <button class="add-to-bag">Add to bag</button>
+        </div>
+    </div>
+    
 
 </body>
 </html>
